@@ -20,7 +20,7 @@ class JsonFormatterJsonbTest extends JsonFormatterBaseTest {
             .withConfigurationResource("application-json.properties");
 
     @Test
-    void testFormaterUsingJsonb() throws Exception {
+    void testFormatterUsingJsonb() throws Exception {
         testLogOutput();
     }
 }

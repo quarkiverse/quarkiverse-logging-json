@@ -82,37 +82,37 @@ public class JsonbJsonGenerator implements JsonGenerator {
     }
 
     @Override
-    public void writeNumberField(String fieldName, short value) throws IOException {
+    public void writeNumberField(String fieldName, short value) {
         this.generator.write(fieldName, value);
     }
 
     @Override
-    public void writeNumberField(String fieldName, int value) throws IOException {
+    public void writeNumberField(String fieldName, int value) {
         this.generator.write(fieldName, value);
     }
 
     @Override
-    public void writeNumberField(String fieldName, long value) throws IOException {
+    public void writeNumberField(String fieldName, long value) {
         this.generator.write(fieldName, value);
     }
 
     @Override
-    public void writeNumberField(String fieldName, BigInteger value) throws IOException {
+    public void writeNumberField(String fieldName, BigInteger value) {
         this.generator.write(fieldName, value);
     }
 
     @Override
-    public void writeNumberField(String fieldName, float value) throws IOException {
+    public void writeNumberField(String fieldName, float value) {
         this.generator.write(fieldName, value);
     }
 
     @Override
-    public void writeNumberField(String fieldName, double value) throws IOException {
+    public void writeNumberField(String fieldName, double value) {
         this.generator.write(fieldName, value);
     }
 
     @Override
-    public void writeNumberField(String fieldName, BigDecimal value) throws IOException {
+    public void writeNumberField(String fieldName, BigDecimal value) {
         this.generator.write(fieldName, value);
     }
 
